@@ -37,7 +37,7 @@
 	<gap:plugin name="cordova-plugin-network-information" source="npm" version="0.2.12" />
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm" version="0.3.4" />
 	<gap:plugin name="cordova-plugin-vibration" source="npm" version="0.3.11" />-->
-	<gap:plugin name="cordova-plugin-battery-status" source="npm" version="0.2.11" />
+	<!--<gap:plugin name="cordova-plugin-battery-status" source="npm" version="0.2.11" />
 	<gap:plugin name="cordova-plugin-camera" source="npm" version="0.3.2" />
 	<gap:plugin name="cordova-plugin-console" source="npm" version="0.2.11" />
 	<gap:plugin name="cordova-plugin-contacts" source="npm" version="0.2.13" />
@@ -54,7 +54,9 @@
 	<gap:plugin name="cordova-plugin-media-capture" source="npm" version="0.3.3" />
 	<gap:plugin name="cordova-plugin-network-information" source="npm" version="0.2.12" />
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm" version="0.3.4" />
-	<gap:plugin name="cordova-plugin-vibration" source="npm" version="0.3.11" />
+	<gap:plugin name="cordova-plugin-vibration" source="npm" version="0.3.11" />-->
+	<gap:plugin name="cordova-plugin-geolocation" source="npm" />
+	<gap:plugin name="cordova-plugin-vibration" source="npm" />
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
