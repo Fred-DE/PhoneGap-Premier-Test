@@ -56,7 +56,6 @@ function changePageManager(page)
 		
 		case "page.html":
 			console.log("page");
-			// navigator.vibrate(1000);
 			initGeolocation();
 		break;
 	}
@@ -81,6 +80,8 @@ function onSuccessGeolocation(position)
 	console.log("onSuccessGeolocation");
 	console.log(position);
 	// alert(position);
+	
+	navigator.vibrate(1000);
 	
 	$("#geolocation").text(position.coords.latitude +", "+ position.coords.longitude);
 }
