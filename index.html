@@ -30,6 +30,7 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
 		
+		<!--<script type="text/javascript" src="js/libs/debuggap.js"></script>-->
 		<script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript" src="js/libs/jquery-2.1.4.min.js"></script>
 		<!--<script type="text/javascript" src="js/libs/jquery.mobile-1.4.5.min.js"></script>-->
@@ -44,14 +45,22 @@
     </head>
 	
     <body>
-        <div class="app loading">
-            <h1>PhoneGap Premier Test !</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+		<div id="window">
+			<div class="app loading">
+				<h1 data-trn="PhoneGap Premier Test !"></h1>
+				<div id="deviceready" class="blink">
+					<p class="event listening" data-trn="Connexion à l'appareil"></p>
+					<p class="event received" data-trn="L'appareil est prêt"></p>
+				</div>
+				
+				<div data-href="geoloc.html" data-trn="Géoloc"></div>
+				<div data-href="server.html" data-trn="Serveur"></div>
+				<div data-href="socket.html" data-trn="Socket"></div>
+			</div>
 			
-			<div data-href="page.html">Page</div>
-        </div>
+			<div class="app new-page">
+			
+			</div>
+		</div>
     </body>
 </html>
